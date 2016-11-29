@@ -10,8 +10,8 @@ Melbourne University AES/MathWorks/NIH Seizure Prediction:
 ##0. Preprocess
 Generate file list
 ```C
-$ ls train_1/*_0.mat >> train1_neg.list
-$ ls train_1/*_1.mat >> train1_pos.list
+$ ls train_1/\*_0.mat >> train1_neg.list
+$ ls train_1/\*_1.mat >> train1_pos.list
 ```
 </br>
 Use following script to check damage file.
@@ -34,7 +34,9 @@ $ python simple_rnn_3.py # for set-3
 $ python predict_simple_rnn.py
 ```
 **Model:**
+</br>
 There are some trained model under model folder
+</br>
 </br>
 ##2. Residual RNN by python script
 **Folder:** Res_RNN
@@ -50,6 +52,8 @@ $ python res_rnn_3.py # for set-3
 $ python predict_res_rnn.py
 ```
 **Model:**
+</br>
+</br>
 There are some trained model under model folder
 </br>
 </br>
